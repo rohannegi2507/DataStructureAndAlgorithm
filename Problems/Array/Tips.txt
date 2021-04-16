@@ -1,0 +1,4 @@
+//If order does not matter
+// Array problem can be solved using
+//Sort the array
+// Hashmap and Dynamic programming 
