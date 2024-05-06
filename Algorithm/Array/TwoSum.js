@@ -1,6 +1,7 @@
 
 
 // Technique: while loop
+// Time Complexity:  O(n2)
 var twoSumBruteForce = function (nums, target) {
     if (nums.length === 1) {
         return []
@@ -28,6 +29,7 @@ var twoSumBruteForce = function (nums, target) {
 console.log('O(n2)', twoSumBruteForce([3, 2, 4], 6))
 
 // Technique: Sorting and Two pointer
+// Time Complexity:  O(nLogn)
 var twoSumSort = function (nums, target) {
     const arr = [...nums]
     arr.sort((a, b) => a - b)
@@ -49,6 +51,7 @@ var twoSumSort = function (nums, target) {
 console.log('O(nLogn)', twoSumSort([3, 2, 4], 6))
 
 // Technique : Hashmap
+// Time Complexity:  O(n)
 var twoSumMap = function (nums, target) {
     let map = new Map()
     for (let i = 0; i < nums.length; i++) {
